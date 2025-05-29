@@ -41,7 +41,7 @@ coworkers = st.selectbox("Discuss with coworkers", ["Yes", "No", "Some of them"]
 supervisor = st.selectbox("Discuss with supervisor", ["Yes", "No", "Some of them"])
 mental_health_interview = st.selectbox("Mental health in interview", ["Yes", "No", "Maybe"])
 phys_health_interview = st.selectbox("Physical health in interview", ["Yes", "No", "Maybe"])
-mental_vs_physical = st.selectbox("Which is more important", ["Don't know", "Mental health", "Physical health"])
+mental_vs_physical = st.selectbox("Which is more important", ["Don't know", "Yes", "No"])
 obs_consequence = st.selectbox("Observed consequence for others", ["Yes", "No"])
 
 # Convert input into DataFrame
